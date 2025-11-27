@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 734fbfb568154d32a89d792102f0c779, type: 3}
+  m_Name: GameState Atom Generator
+  m_EditorClassIdentifier: 
+  FullQualifiedName: GameState, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  GenerationOptions: 3098297
+  Scripts:
+  - {fileID: 11500000, guid: 2ab8ca6cbff21604e9fcf180b478d75f, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11500000, guid: 38cbb5c23e652ef4fab47193f3aa2667, type: 3}
+  - {fileID: 11500000, guid: 019ad7e03db10e54391dd8fc035215d4, type: 3}
+  - {fileID: 0}
+  - {fileID: 11500000, guid: 738dc2f65d5445047bb72324a451fd46, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11500000, guid: 256fa65ae04eb254ba18a7219b9b7847, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11500000, guid: da2794f43df58b648ac10b18dc330090, type: 3}
+  - {fileID: 0}
+  - {fileID: 11500000, guid: c441e72f9d5ec534aab862c9f96a1fc2, type: 3}
+  - {fileID: 11500000, guid: 8f28f02f38dd27e47a6b6379ca9d45aa, type: 3}
+  - {fileID: 11500000, guid: d69320a15ef61a144a56eeb722ec46cb, type: 3}
+  - {fileID: 11500000, guid: 0772aecc72c4ce74dbfd9a830a345eef, type: 3}
+  - {fileID: 0}
+  - {fileID: 11500000, guid: 6f35de617d2a1c94b8b2362fccdc7161, type: 3}
