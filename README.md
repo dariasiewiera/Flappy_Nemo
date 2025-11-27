@@ -28,12 +28,12 @@ Control Nemo by tapping/clicking/pressing space to make him "flap". Avoid obstac
 - `Packages/manifest.json` — Unity package dependencies
 - `ProjectSettings/` — Unity project settings
 
-## Notable packages (from `Packages/manifest.json`)
-- `com.unity.inputsystem` — Input System
-- `com.unity.render-pipelines.universal` — Universal Render Pipeline (URP)
-- `com.unity.ugui` — UI
-- `com.unity.visualscripting` — Visual Scripting
-- Additional scoped packages: `com.unity-atoms`, `com.eflatun.scenereference`, etc.
+## Advanced Unity Features Utilized
+The Flappy Nemo project serves as an excellent example of applying modern and effective design patterns in Unity development:
+1. Unity Atoms (State Management): We utilized the Unity Atoms library to implement architectural design patterns based on Scriptable Objects. This allowed us to achieve loose coupling (decoupling) for game elements such as state management (e.g., game states: Menu, Playing, GameOver), scoring, and sound playback. As a result, the code is more modular, scalable, and easier to test.
+2 .Universal Render Pipeline (URP): The use of URP ensures modern graphics optimization and high performance across various platforms (PC, Mobile) while maintaining an attractive 2D visual style.
+3. Input System: Implementing Unity's new Input System guarantees flexible and easily extensible controls that work seamlessly across PC (mouse, spacebar) and mobile devices (touch).
+4. Scene Reference: The inclusion of com.eflatun.scenereference allows for safe and strongly-typed references to scenes within the project, eliminating the risk of errors that come with using "magic strings" (scene names as strings).
 
 ## Build
 1. Open `File → Build Settings`.
